@@ -5,12 +5,14 @@ CREATE TABLE QUESTIONS
     ANSWER   VARCHAR2(30),
     POINTS   NUMBER
 );
+
 CREATE TABLE USERS
 (
     ID               NUMBER UNIQUE,
     NAME             VARCHAR2(30),
     MAX_TOTAL_POINTS NUMBER
 );
+
 INSERT INTO QUESTIONS VALUES (1,'Скільки днів в звичайному році?','365',10);
 INSERT INTO QUESTIONS VALUES (2,'Який колір крейди?','білий',10);
 INSERT INTO QUESTIONS VALUES (3,'Скільки років автору тесту?','19',10);
